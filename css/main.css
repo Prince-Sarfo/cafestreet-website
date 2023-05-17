@@ -451,7 +451,7 @@
   height: 24.5rem;
   margin: 8rem auto;
   border-radius: 3rem;
-  background-image: url("Images/newsletter-img.png");
+  background-image: url("./Images/newsletter-img.png");
 }
 #newsletter-sec .newsletter {
   width: 100%;
