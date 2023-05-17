@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- import font called Poppins -->
+
+</head>
+<body>
+    <header class="hero">
+
+
+        <div class="showcase">
+            
+            <img src="/Images/bg_img_hero.png" alt="image of coffee seeds" id="coffee-seeds1">
+            <img src="/Images/bg_img_hero.png" alt="image of coffee seeds" id="coffee-seeds2">
+                <!-- This image is causing the overflow. -->
+            
+            <nav>
+
+                <div class="logo">
+                        <img src="Images/logo_coffe.svg" alt="">
+                </div>
+
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Our Product</a></li>
+                    <li><a href="">Delivery</a></li>
+                </ul>
+
+                <div class="search-cart">
+                    <div class="search-box">
+                        <img src="/Images/search.png" alt="" id="search">
+                        <input type="text" name="search" placeholder="Cappuccino" id="search-bar">
+                    </div>
+                    
+                    <div class="cart">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.66667 9.33333H25.0533C25.4259 9.33334 25.7943 9.41142 26.1349 9.56254C26.4754 9.71365 26.7805 9.93444 27.0305 10.2107C27.2805 10.4869 27.4698 10.8125 27.5863 11.1664C27.7027 11.5203 27.7437 11.8946 27.7067 12.2653L26.9067 20.2653C26.8409 20.9233 26.5329 21.5334 26.0426 21.9772C25.5523 22.4209 24.9146 22.6666 24.2533 22.6667H11.52C10.9033 22.6669 10.3056 22.4534 9.82859 22.0625C9.35162 21.6716 9.02487 21.1274 8.904 20.5227L6.66667 9.33333Z" stroke="#1D1D1D" stroke-width="2" stroke-linejoin="round"/>
+                            <path d="M21.3333 28H24M6.66667 9.33333L5.58667 5.00933C5.51444 4.721 5.34794 4.46508 5.11361 4.28221C4.87928 4.09934 4.59057 4.00001 4.29333 4H2.66667L6.66667 9.33333ZM10.6667 28H13.3333H10.6667Z" stroke="#1D1D1D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <circle cx="27" cy="9" r="4.5" fill="#FF912B" stroke="white"/>
+                            </svg>    
+                    </div>
+
+                </div>
+
+            </nav>
+            
+            <div class="content">
+                <div class="col-1">
+                    <h1>Enjoy your <span>coffee</span>  <br> before your activity</h1>
+                    <p>
+                        Boost your productivity and build your <br> mood with a glass of coffee in the morning 
+                    </p>
+                    <div class="btn-showcase">
+                        <button id="button1">Order now 
+                            <div>
+                                <img src="/Images/cart 1.png" alt="" id="order-cart">
+                            </div>
+                        
+                        </button>
+                        <h4><a href="#">More menu</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="cappuccino-background">
+                        <img src="/images/Frame 11.png" alt="Cappuccino image">
+                    </div>
+                   <div class="cup-btn">
+                        <div class="btn-1"><button id="btn-1-1">Cappuccino</button></div>
+                        <div class="btn-2"><button id="btn-2-1">4.8 <img src="/Images/akar-icons_star.png" alt=""></button></div>
+                        <div class="btn-3"><button id="btn-3-1" >18K</button></div>
+                   </div>
+                    
+                
+                </div>
+            </div>
+            
+        </div>
+            
+            
+    </header>
+
+
+    <!-- Popular Products -->
+    <section id="popular-products">
+        <h2  id="pop">Popular Now</h2>
+         <div class="row1"> 
+
+            <!-- card one -->
+            <div class="card1">
+                <div class="image-product">
+                    <div class="btn-4"><button id="btn-4-1"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                    </button></div>
+                    <img src="/Images/img_product2.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Vanilla Latte</h3>
+                        <span>12K</span>
+                    </div>
+                    <div class="btn-icon">
+                        <h5 id="hot">Hot</h5>
+                        <h5>Cold</h5>
+                        <span><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+            <!-- card two -->
+            <div class="card2">
+                <div class="image-product">
+                    <div class="btn-5"><button id="btn-5-1"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                    </button></div>
+                    <img src="/Images/img_product.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Espresso</h3>
+                        <span>12K</span>
+                    </div>
+                    <div class="btn-icon">
+                        <h5>Hot</h5>
+                        <h5>Cold</h5>
+                        <span><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card three -->
+            <div class="card3">
+                <div class="image-product">
+                    <div class="btn-6"><button id="btn-6-1"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                    </button></div>
+                    <img src="/Images/img_product1.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Hazelnut Latte</h3>
+                        <span>21K</span>
+                    </div>
+                    <div class="btn-icon">
+                        <h5>Hot</h5>
+                        <h5>Cold</h5>
+                        <span><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="rectangle"></div> -->
+    </section>
+
+
+    <!-- How to Section -->
+    <section id="how-to">
+        <h2>How to use delivery service</h2>
+        <div class="row-howto">
+            <div class="how-to-col1">
+                <div id="img"><img src="/Images/image.png" alt=""></div>
+                <div class="details">
+                    <h5>choose your coffee</h5>
+                    <p>there are 20+ coffees for you</p>
+                </div>
+            </div>
+            <div class="how-to-col1">
+                <div id="img"><img src="/Images/food-truck 1.png" alt=""></div>
+                <div class="details">
+                    <h5>we delivery it to you</h5>
+                    <p>Choose delivery service</p>
+                </div>
+            </div>
+            <div class="how-to-col1">
+                <div id="img"><img src="/Images/coffee-cup 2.png" alt=""></div>
+                <div class="details">
+                    <h5>Enjoy your coffee</h5>
+                    <p>Choose delivery service</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About us section -->
+    <section id="about-us">
+        <div class="about-us-row">
+            <div class="abt-col-1">
+                <img src="/Images/about-us-image.png" alt="">
+            </div>
+            <div class="abt-col-2">
+                <h2>About us</h3>
+                <h3>we provide quality coffee, <br> and ready to deliver.</h2>
+                <p>We are a company that makes and distributes <br>
+                    delicious drinks. our main product is made with a <br>
+                    secret recipe and available in stores worldwide.
+                </p>
+                <a href="#"><button>Get your coffee</button></a>
+            </div>
+        </div>
+    </section>
+
+        <!-- Menu section -->
+    <section id="menu">
+        <h2>Special menu for you</h2>
+        <div class="row3">
+            <!-- first card -->
+            <div class="menu-card">
+                <div class="image-product">
+                        <div class="rating-flare"><button class="rating-white"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                        </button></div>  
+                    <img src="/Images/sandwich.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Sandwich</h3>
+                        <h5>bread with meat and <br> vegetables</h5>
+                        
+                    </div>
+                    <div class="btn-icon">
+                        <h3><span>21K</span></h3>
+                        <span id="cart"><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+     
+            <!-- second card -->
+            <div class="menu-card">
+                <div class="image-product">
+                        <div class="rating-flare"><button class="rating-white"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                        </button></div>  
+                    <img src="/Images/hot-milk.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Hot Milk</h3>
+                        <h5>Hot Milk with less sugar</h5>
+                        
+                    </div>
+                    <div class="btn-icon">
+                        <h3><span>21K</span></h3>
+                        <span id="cart"><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- third card -->
+
+            <div class="menu-card">
+                <div class="image-product">
+                        <div class="rating-flare"><button class="rating-white"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                        </button></div>  
+                    <img src="/Images/coffee-ice-cream.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Coffee Ice Cream</h3>
+                        <h5>Coffee with Ice Cream <br> vanilla</h5>
+                        
+                    </div>
+                    <div class="btn-icon">
+                        <h3><span>21K</span></h3>
+                        <span id="cart"><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fourth card -->
+
+            <div class="menu-card">
+                <div class="image-product">
+                        <div class="rating-flare"><button class="rating-white"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                        </button></div>  
+                    <img src="/Images/cappucino.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Cappuccino</h3>
+                        <h5>Hot Cappuccino </h5>
+                        
+                    </div>
+                    <div class="btn-icon">
+                        <h3><span>21K</span></h3>
+                        <span id="cart"><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fifth card -->
+            <div class="menu-card">
+                <div class="image-product">
+                        <div class="rating-flare"><button class="rating-white"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                        </button></div>  
+                    <img src="/Images/moccacino.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Moccacino</h3>
+                        <h5>Hot Moccacino</h5>
+                        
+                    </div>
+                    <div class="btn-icon">
+                        <h3><span>21K</span></h3>
+                        <span id="cart"><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sixth card -->
+            <div class="menu-card">
+                <div class="image-product">
+                        <div class="rating-flare"><button class="rating-white"><h6>4.8 </h6><img src="/Images/akar-icons_star.png" width="14px" height="14px" alt="">
+                        </button></div>  
+                    <img src="/Images/waffle-ice-cream.png" alt="">
+                </div>
+                <div class="body-content">
+                    <div class="text">
+                        <h3>Waffle Ice Cream</h3>
+                        <h5>Waffle with Ice Cream</h5>
+                        
+                    </div>
+                    <div class="btn-icon">
+                        <h3><span>21K</span></h3>
+                        <span id="cart"><img src="/Images/cart 1.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Testimonials section -->
+    <section id="test-container">
+
+        <div id="testimonials">
+            <div class="test-bg-image">
+                <div class="content-text">
+                    <h2>What they say about us</h2>
+                    <p>We always provide the best service <br>
+                        and always maintain the qualit of <br>
+                        coffee</p>
+                </div>
+    
+                <div class="content-card">
+    
+                    <!-- card one -->
+                    <div id="individual-card">
+                        <div class="card-testimonial">
+                            <img src="/Images/Naura.png" alt="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="info">
+                                <h3>Naura</h3>
+                                <p>I really love the cappucino,
+                                    the coffee was very much smooth.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                   
+    
+                    <!-- card two -->
+                    <div id="individual-card"> 
+                        <div class="card-testimonial">
+                            <img src="/Images/John.png" alt="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="info">
+                                <h3>John</h3>
+                                <p>this coffee shop is very, <br>
+                                    convenient.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- card three -->
+                    <div id="individual-card">
+                        <div class="card-testimonial">
+                            <img src="/Images/Azura.png" alt="">
+                        </div>
+                        <div class="testimonial-info">
+                            <div class="info">
+                                <h3>Azura</h3>
+                                <p>the coffee menu is <br>
+                                    very much
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+
+    <!-- Newsletter section -->
+    <section id="newsletter-sec">
+        <div class="newsletter">
+            <h2>Subscribe to get 50% discount price</h2>
+            <div class="form-input">
+                <input type="email" placeholder="Email address">
+                <a href="#"><button>Order now</button></a>
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
+
