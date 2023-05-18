@@ -325,7 +325,6 @@
 #menu .row3 {
   width: 100%;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 #menu .row3 .menu-card {
@@ -335,6 +334,7 @@
   border-radius: 0.625rem;
   box-shadow: 0.625rem 0.625rem 2rem 0 rgba(0, 0, 0, 0.25);
   margin-top: 3.75rem;
+  margin-right: 1rem;
   transition: all 1s ease;
 }
 #menu .row3 .menu-card .image-product {
